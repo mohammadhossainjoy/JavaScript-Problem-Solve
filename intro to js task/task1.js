@@ -9,7 +9,7 @@ Print the result.
 Sample Input:
 1000
 700
-
+----------
 Sample Output:
 300
 */
