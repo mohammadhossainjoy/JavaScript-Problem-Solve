@@ -13,7 +13,7 @@ while (num <= 131) {
   }
   num++;
 }
-console.log(sum);
+console.log("Sum of Odd numbers: ", sum);
 /*
 
 Subtask-2:
@@ -21,5 +21,12 @@ Subtask-2:
 Display sum of all the even numbers from 206 to 311.
 
  */
-
-/*programming hero*/
+let number = 206;
+let suM = 0;
+while (number <= 311) {
+  if (number % 2 == !0) {
+    suM = suM + number;
+  }
+  number++;
+}
+console.log("Sum of Even numbers: ", suM);
